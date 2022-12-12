@@ -24,7 +24,8 @@ export default function Summary({ score, noq }) {
     }
   );
 
-  const image = result ? result?.photos[0].src.medium : successImage;
+  // const image = result ? result?.photos[0].src.medium : successImage;
+  const image = "abc.png";
 
   return (
     <div className={classes.summary}>
